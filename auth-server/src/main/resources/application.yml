@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: auth-server
+
+server:
+  port: 9000
+  contextPath: /auth
+
+security:
+  user:
+    password: password
+  sessions: if-required
+
+management:
+  security:
+    enabled: false
