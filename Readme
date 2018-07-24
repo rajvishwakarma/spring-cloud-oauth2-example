@@ -1,0 +1,9 @@
+The is sample application built with spring-cloud-oauth2 to demonstrate the spring cloud oauth2 authentication.
+
+A. auth-server
+B. resource-server
+B. web-app
+
+Here the auth-server serves the purpose of authenticating the user and providing the access-token to access the resources.
+
+
